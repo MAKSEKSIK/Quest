@@ -84,6 +84,8 @@ while length > 0 and health > 0 and respect > 0 and weight > 0 and respect < 100
         health += 20
         respect -= 2
         weight -= 5
+    else:
+        print("Вы думали над выбором весь день, пока не наступила ночь")
     print("Наступила ночь")
     length -= 2
     health += 20
